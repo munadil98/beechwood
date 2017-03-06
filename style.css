@@ -86,6 +86,11 @@ p{
     min-height: 55px;
 }
 
+.section2 p{
+
+	font-size: .8em;
+}
+
 .imdiv{
 	position: relative;
 }
@@ -108,13 +113,15 @@ p{
 
 
 .view{
-
+	padding-bottom: 2%;
 }
 
 .view a{
 	text-decoration: none;
 	color: #303030;
 	border-bottom: 1px solid #303030;
+	margin: 0;
+	padding: 0;
 }
 
 .view a:hover{
@@ -185,7 +192,7 @@ margin-left: 20%;
 .enq button{
 	width: 60%;
 	padding: 2% 2%;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	color: white;
 	background-color: #555555;
 }
@@ -221,4 +228,8 @@ margin-left: 20%;
 
 .section4 ul li a:hover{
 	border-bottom: 1px solid white;
+}
+
+.error{
+
 }
