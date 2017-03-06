@@ -175,7 +175,7 @@ margin-left: 20%;
 
 .form label{
 	margin-top: 5%;
-	font-size: .6em;
+	font-size: .8em;
 }
 
 .captcha{
@@ -207,6 +207,8 @@ margin-left: 20%;
 .section4 ul{
 
 	list-style: none;
+	text-align: center;
+	margin: 0 auto;
 
 
 }
@@ -226,6 +228,7 @@ margin-left: 20%;
 	text-decoration: none;
 	color: #303030;
 	border-bottom: 1px solid #303030;
+	font-size: .8em;
 }
 
 .section4 ul li a:hover{
