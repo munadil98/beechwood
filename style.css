@@ -243,27 +243,8 @@ margin-left: 20%;
 	background-color: #EFEFEF;
 	/*border: 2px solid black;*/
 	clear: both;
-	height: 400px;
+	height: 100%;
 }
-
-@media (max-width: 1024px){
-	.section3{
-		height: 400px;
-	}
-}
-
-@media (max-width: 768px){
-	.section3{
-		height: 450px;
-	}
-}
-
-@media (max-width: 320px){
-	.section3{
-		height: 600px;
-	}	
-}
-
 
 
 .section3 h1{
@@ -312,7 +293,8 @@ margin-left: 20%;
 
 @media (min-width: 321px) and (max-width: 768px){
 	.enq button{
-	width: 30%;
+	/*width: 30%;*/
+	width: 10em;
 	margin-top: 5px;
 	padding: 2% 2%;
 	font-size: 1.2em;
