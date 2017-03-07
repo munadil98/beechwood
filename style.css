@@ -8,6 +8,25 @@ html, body{
    /*background-color: #100E0F;*/
 }
 
+@media (max-width:1024px){
+	body{
+		font-size: 14px;	
+	}
+	
+}
+
+@media (max-width:768px){
+	body{
+		font-size: 12px;	
+	}
+} 
+
+@media (max-width:320px){
+	body{
+		font-size: 12px;	
+	}
+}  
+
 img{
 	margin: 0;
 	padding: 0;
@@ -72,13 +91,67 @@ p{
 	
 }
 
+.single img{
+	width: 100%;
+}
+
 .price{
     color: white;
     background-color: #8DC63F;
-    margin-top: -57px;
-    margin-right: -5%;
-    padding: 5% 10%;;
+    margin-top: -18%;
+    margin-right: -4.5%;
+    /*padding: 5% 10%;;*/
 }
+
+@media (max-width: 1024px){
+
+	.single, .single img{
+
+		width: 31%;
+		
+	}
+
+	.price{
+    margin-top: -21%;
+    margin-right: -5.5%;
+    /*padding: 5% 10%;;*/
+}
+
+
+}
+
+
+@media (max-width: 768px){
+
+	.single, .single img{
+
+		width: 45%;
+		
+	}
+
+
+	.price{
+	    margin-top: -17%;
+	    margin-right: -5%;
+	    /*padding: 5% 10%;;*/
+	}
+}
+
+@media (max-width: 320px){
+	.single, .single img{
+
+		width: 94%;
+		
+	}
+
+	.price{
+	    margin-top: -20%;
+    	margin-right: -6%;
+	    /*padding: 5% 10%;;*/
+	}
+}
+
+
 
 .home-name {
     padding: 10px 4% 0px 4%;
@@ -162,6 +235,26 @@ margin-left: 20%;
 	height: 400px;
 }
 
+@media (max-width: 1024px){
+	.section3{
+		height: 400px;
+	}
+}
+
+@media (max-width: 768px){
+	.section3{
+		height: 450px;
+	}
+}
+
+@media (max-width: 320px){
+	.section3{
+		height: 600px;
+	}	
+}
+
+
+
 .section3 h1{
 	text-align: center;
 }
@@ -176,6 +269,13 @@ margin-left: 20%;
 .form label{
 	margin-top: 5%;
 	font-size: .8em;
+}
+
+@media (max-width: 320px){
+	.form label{
+	
+		font-size: 1em;
+	}
 }
 
 .captcha{
@@ -199,16 +299,31 @@ margin-left: 20%;
 	background-color: #555555;
 }
 
+@media (min-width: 321px) and (max-width: 768px){
+	.enq button{
+	width: 30%;
+	margin-top: 5px;
+	padding: 2% 2%;
+	font-size: 1.2em;
+	color: white;
+	background-color: #555555;
+}
+
+
+}
+
 .section4{
 	margin: 3% 0;
 	padding-bottom: 3%;
 }
 
+
+
 .section4 ul{
 
 	list-style: none;
 	text-align: center;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 
 
 }
@@ -229,6 +344,22 @@ margin-left: 20%;
 	color: #303030;
 	border-bottom: 1px solid #303030;
 	font-size: .8em;
+}
+
+@media (max-width: 320px){
+
+	.section4 {
+		font-size: .8em;
+	}
+
+	.section4 ul{
+		margin: 0 -5px;
+	}
+
+	.section4 ul li a{
+		font-size: .8em;
+	}
+
 }
 
 .section4 ul li a:hover{
